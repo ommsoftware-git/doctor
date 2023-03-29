@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Medical</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary m-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-dark m-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-secondary m-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
+      <div class="row gx-0">
+        <div class="col-md-7 text-center text-lg-start mb-2 mb-lg-0">
+          <div class="d-inline-flex align-items-center">
+            <small class="py-2"
+              ><i class="far fa-clock text-primary me-2"></i>Opening Hours :
+              6.00 am - 10.00 pm, Everyday
+            </small>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-user-lock"></i> Login</a
+            >
+            <div class="dropdown-menu m-0">
+              <a href="login.html" class="dropdown-item">Reception </a>
+              <a href="login.html" class="dropdown-item">Doctors </a>
+              <a href="login.html" class="dropdown-item">Pathology </a>
+              <a href="login.html" class="dropdown-item">Radiology </a>
+              <a href="login.html" class="dropdown-item">Dietician </a>
+              <a href="login.html" class="dropdown-item">Yoga </a>
+              <a href="login.html" class="dropdown-item">SPA </a>
+              <a href="login.html" class="dropdown-item">IPD Reception </a>
+              <a href="login.html" class="dropdown-item">Billibg Department </a>
+              <a href="login.html" class="dropdown-item">Super Admin </a>
+
+              <a href="signup.html" class="dropdown-item">Logout</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center text-lg-end">
+          <div
+            class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5"
+          >
+            <div class="me-3 pe-3 border-end py-2">
+              <a
+                href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=info@example.com"
+                class="m-0 text-white"
+              >
+                <i class="fa fa-envelope-open me-2"></i>info@example.com
+              </a>
+            </div>
+            <div class="py-2">
+              <a href="tel:123456789" class="m-0 text-white">
+                <i class="fa fa-phone-alt me-2"></i>+012 345 6789
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-dark navbar-light shadow-sm px-md-5 py-md-3 py-lg-0 px-sm-5 py-sm-5"
+    >
+      <a href="index.html" class="navbar-brand p-0 fw-bold">
+        <img src="./img/logo.png" alt="" srcset="" width="50px" height="50px" />
+        <span class="text-primary"
+          >MED<span style="color: #f57e57">ICAL</span>
+        </span>
+      </a>
+      <div class="xs-d-block d-lg-none">
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+            >Login</a
+          >
+          <div class="dropdown-menu m-0">
+            <a href="login.html" class="dropdown-item">Reception </a>
+            <a href="login.html" class="dropdown-item">Doctors </a>
+            <a href="login.html" class="dropdown-item">Pathology </a>
+            <a href="login.html" class="dropdown-item">Radiology </a>
+            <a href="login.html" class="dropdown-item">Dietician </a>
+            <a href="login.html" class="dropdown-item">Yoga </a>
+            <a href="login.html" class="dropdown-item">SPA </a>
+            <a href="login.html" class="dropdown-item">IPD Reception </a>
+            <a href="login.html" class="dropdown-item">Billibg Department </a>
+            <a href="login.html" class="dropdown-item">Super Admin </a>
+
+            <a href="signup.html" class="dropdown-item">Logout</a>
+          </div>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="btn text-white xs-d-block d-lg-none text-end"
+        data-bs-toggle="modal"
+        data-bs-target="#searchModal"
+      >
+        <i class="fa fa-search"></i>
+      </button>
+      <button
+        class="navbar-toggler bg-white"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+        <div class="navbar-nav mx-auto py-0">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="about.html" class="nav-item nav-link">About Us</a>
+          <a href="service.html" class="nav-item nav-link">Service</a>
+          <a href="doctors.html" class="nav-item nav-link">Doctors</a>
+          <a href="blog.html" class="nav-item nav-link active">Blog</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+        <button
+          type="button"
+          class="btn text-white d-none d-sm-block d-md-block"
+          data-bs-toggle="modal"
+          data-bs-target="#searchModal"
+        >
+          <i class="fa fa-search"></i>
+        </button>
+        <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3"
+          >Appointment</a
+        >
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" style="background: rgba(9, 30, 62, 0.7)">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn bg-white btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            class="modal-body d-flex align-items-center justify-content-center"
+          >
+            <div class="input-group" style="max-width: 600px">
+              <input
+                type="text"
+                class="form-control bg-transparent border-primary p-3"
+                placeholder="Type search keyword"
+              />
+              <button class="btn btn-primary px-4">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 hero-header mb-5">
+      <div class="row py-3">
+        <div class="col-12 text-center">
+          <h1 class="display-3 text-white animated zoomIn">
+            A passion for putting patients first.
+          </h1>
+          <a href="index.html" class="h4 text-white">Home</a>
+          /
+          <a href="blog-details.html" class="h4 text-white">Blog-Details</a>
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-2">
+        <div class="row g-5">
+          <div class="col-lg-8">
+            <!-- Blog Detail Start -->
+            <div class="mb-5">
+              <img
+                class="img-fluid w-100 rounded mb-5"
+                src="img/price-3.jpg"
+                alt=""
+              />
+              <h1 class="mb-4">A passion for putting patients first.</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                iste eius eum molestiae temporibus doloremque vel neque porro.
+                Dolores facere laboriosam tempore obcaecati error quaerat dicta,
+                quidem earum, vel impedit odit neque voluptatum. Minima
+                corporis, accusamus itaque minus alias modi vel officia,
+                laudantium ducimus cum reprehenderit! Aliquid nesciunt
+                consequuntur unde omnis suscipit reiciendis, eius illum
+                voluptates quod repellat debitis illo rem iste soluta. Qui,
+                maiores! Facere atque asperiores obcaecati quis, inventore vero
+                culpa dolores debitis reprehenderit quos nemo. Reprehenderit
+                molestias veniam quaerat? Ipsum quas unde magni ea voluptatum
+                cumque nisi recusandae odio corporis, debitis dignissimos
+                laboriosam officia, minus, laudantium aliquid!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                iste eius eum molestiae temporibus doloremque vel neque porro.
+                Dolores facere laboriosam tempore obcaecati error quaerat dicta,
+                quidem earum, vel impedit odit neque voluptatum. Minima
+                corporis, accusamus itaque minus alias modi vel officia,
+                laudantium ducimus cum reprehenderit! Aliquid nesciunt
+                consequuntur unde omnis suscipit reiciendis, eius illum
+                voluptates quod repellat debitis illo rem iste soluta. Qui,
+                maiores! Facere atque asperiores obcaecati quis, inventore vero
+                culpa dolores debitis reprehenderit quos nemo. Reprehenderit
+                molestias veniam quaerat? Ipsum quas unde magni ea voluptatum
+                cumque nisi recusandae odio corporis, debitis dignissimos
+                laboriosam officia, minus, laudantium aliquid!
+              </p>
+            </div>
+            <!-- Blog Detail End -->
+
+            <!-- Comment List Start -->
+            <div class="mb-5">
+              <div
+                class="section-title section-title-sm position-relative pb-3 mb-4"
+              >
+                <h3 class="mb-0">3 Comments</h3>
+              </div>
+              <div class="d-flex mb-4">
+                <img
+                  src="img/team-1.jpg"
+                  class="img-fluid rounded"
+                  style="width: 45px; height: 45px"
+                />
+                <div class="ps-3">
+                  <h6>
+                    <a href="">Suraj</a> <small><i>01 Jan 2023</i></small>
+                  </h6>
+                  <p>
+                    Diam amet duo labore stet elitr invidunt ea clita ipsum
+                    voluptua, tempor labore accusam ipsum et no at. Kasd diam
+                    tempor rebum magna dolores sed eirmod
+                  </p>
+                  <button class="btn btn-sm btn-light">Reply</button>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <img
+                  src="img/team-2.jpg"
+                  class="img-fluid rounded"
+                  style="width: 45px; height: 45px"
+                />
+                <div class="ps-3">
+                  <h6>
+                    <a href="">Riya</a> <small><i>01 Jan 2023</i></small>
+                  </h6>
+                  <p>
+                    Diam amet duo labore stet elitr invidunt ea clita ipsum
+                    voluptua, tempor labore accusam ipsum et no at. Kasd diam
+                    tempor rebum magna dolores sed eirmod
+                  </p>
+                  <button class="btn btn-sm btn-light">Reply</button>
+                </div>
+              </div>
+              <div class="d-flex ms-5 mb-4">
+                <img
+                  src="img/team-2.jpg"
+                  class="img-fluid rounded"
+                  style="width: 45px; height: 45px"
+                />
+                <div class="ps-3">
+                  <h6>
+                    <a href="">Riya</a> <small><i>01 Jan 2023</i></small>
+                  </h6>
+                  <p>
+                    Diam amet duo labore stet elitr invidunt ea clita ipsum
+                    voluptua, tempor labore accusam ipsum et no at. Kasd diam
+                    tempor rebum magna dolores sed eirmod
+                  </p>
+                  <button class="btn btn-sm btn-light">Reply</button>
+                </div>
+              </div>
+            </div>
+            <!-- Comment List End -->
+
+            <!-- Comment Form Start -->
+            <div class="bg-light rounded p-5">
+              <div
+                class="section-title section-title-sm position-relative pb-3 mb-4"
+              >
+                <h3 class="mb-0">Leave A Comment</h3>
+              </div>
+              <form>
+                <div class="row g-3">
+                  <div class="col-12 col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control bg-white border-0"
+                      placeholder="Your Name"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <input
+                      type="email"
+                      class="form-control bg-white border-0"
+                      placeholder="Your Email"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control bg-white border-0"
+                      placeholder="services"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      class="form-control bg-white border-0"
+                      rows="5"
+                      placeholder="Comment"
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit">
+                      Leave Your Comment
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Comment Form End -->
+          </div>
+
+          <!-- Sidebar Start -->
+          <div class="col-lg-4">
+            <!-- Search Form Start -->
+            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control p-3"
+                  placeholder="Keyword"
+                />
+                <button class="btn btn-primary px-4">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </div>
+            <!-- Search Form End -->
+
+            <!-- Recent Post Start -->
+            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+              <div
+                class="section-title section-title-sm position-relative pb-3 mb-4"
+              >
+                <h3 class="mb-0">Recent Post</h3>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img
+                  class="img-fluid"
+                  src="img/price-2.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                  alt=""
+                />
+                <a
+                  href=""
+                  class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 text-truncate"
+                  >Lorem ipsum dolor sit amet adipis elit
+                </a>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img
+                  class="img-fluid"
+                  src="img/price-2.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                  alt=""
+                />
+                <a
+                  href=""
+                  class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 text-truncate"
+                  >Lorem ipsum dolor sit amet adipis elit
+                </a>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img
+                  class="img-fluid"
+                  src="img/price-2.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                  alt=""
+                />
+                <a
+                  href=""
+                  class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 text-truncate"
+                  >Lorem ipsum dolor sit amet adipis elit
+                </a>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img
+                  class="img-fluid"
+                  src="img/price-2.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                  alt=""
+                />
+                <a
+                  href=""
+                  class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 text-truncate"
+                  >Lorem ipsum dolor sit amet adipis elit
+                </a>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img
+                  class="img-fluid"
+                  src="img/price-2.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                  alt=""
+                />
+                <a
+                  href=""
+                  class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 text-truncate"
+                  >Lorem ipsum dolor sit amet adipis elit
+                </a>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img
+                  class="img-fluid"
+                  src="img/price-2.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                  alt=""
+                />
+                <a
+                  href=""
+                  class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 text-truncate"
+                  >Lorem ipsum dolor sit amet adipis elit
+                </a>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img
+                  class="img-fluid"
+                  src="img/price-2.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover"
+                  alt=""
+                />
+                <a
+                  href=""
+                  class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0 text-truncate"
+                  >Lorem ipsum dolor sit amet adipis elit
+                </a>
+              </div>
+            </div>
+            <!-- Recent Post End -->
+
+            <!-- Category Start -->
+            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+              <div
+                class="section-title section-title-sm position-relative pb-3 mb-4"
+              >
+                <h3 class="mb-0">Categories</h3>
+              </div>
+              <div
+                class="link-animated d-flex flex-column justify-content-start"
+              >
+                <a
+                  class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2"
+                  href="services.html"
+                  ><i class="bi bi-arrow-right me-2"></i>Surgery</a
+                >
+                <a
+                  class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2"
+                  href="services.html"
+                  ><i class="bi bi-arrow-right me-2"></i>Health Care</a
+                >
+                <a
+                  class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2"
+                  href="services.html"
+                  ><i class="bi bi-arrow-right me-2"></i>Medical</a
+                >
+                <a
+                  class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2"
+                  href="services.html"
+                  ><i class="bi bi-arrow-right me-2"></i>Professional</a
+                >
+              </div>
+            </div>
+            <!-- Category End -->
+          </div>
+          <!-- Sidebar End -->
+        </div>
+      </div>
+    </div>
+    <!-- Blog End -->
+
+    <!-- Newsletter Start -->
+    <div
+      class="container-fluid position-relative pt-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+      style="z-index: 1"
+    >
+      <div class="container">
+        <div class="bg-primary p-5">
+          <form class="mx-auto" style="max-width: 600px">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control border-white p-3"
+                placeholder="Your Email"
+              />
+              <button class="btn btn-dark px-4">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter End -->
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light py-5 wow fadeInUp"
+      data-wow-delay="0.3s"
+      style="margin-top: -75px"
+    >
+      <div class="container pt-5">
+        <div class="row g-5 pt-4">
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="./img/logo.png"
+              alt="footer-logo"
+              width="100px"
+              height="100px"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores, obcaecati?
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="text-white mb-4">Popular Links</h3>
+            <div class="d-flex flex-column justify-content-start">
+              <a class="text-light mb-2" href="index.html"
+                ><i class="bi bi-arrow-right text-primary me-2"></i>Home</a
+              >
+              <a class="text-light mb-2" href="about.html"
+                ><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a
+              >
+              <a class="text-light mb-2" href="service.html"
+                ><i class="bi bi-arrow-right text-primary me-2"></i>Our
+                Services</a
+              >
+              <a class="text-light mb-2" href="blog.html"
+                ><i class="bi bi-arrow-right text-primary me-2"></i>Latest
+                Blog</a
+              >
+              <a class="text-light" href="contact.html"
+                ><i class="bi bi-arrow-right text-primary me-2"></i>Contact
+                Us</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="text-white mb-4">Get In Touch</h3>
+            <p class="mb-2">
+              <i class="bi bi-geo-alt text-primary me-2"></i>123 Street, Pune
+              MH, India
+            </p>
+            <p class="mb-2">
+              <i class="bi bi-envelope-open text-primary me-2"></i
+              >info@example.com
+            </p>
+            <p class="mb-0">
+              <i class="bi bi-telephone text-primary me-2"></i>+012 345 67890
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="text-white mb-4">Follow Us</h3>
+            <div class="d-flex">
+              <a
+                class="btn btn-lg btn-primary btn-lg-square rounded me-2"
+                href="#"
+                ><i class="fab fa-twitter fw-normal"></i
+              ></a>
+              <a
+                class="btn btn-lg btn-primary btn-lg-square rounded me-2"
+                href="#"
+                ><i class="fab fa-facebook-f fw-normal"></i
+              ></a>
+              <a
+                class="btn btn-lg btn-primary btn-lg-square rounded me-2"
+                href="#"
+                ><i class="fab fa-linkedin-in fw-normal"></i
+              ></a>
+              <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"
+                ><i class="fab fa-instagram fw-normal"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-light py-4" style="background: #051225">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-md-0">
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              <a class="text-white border-bottom" href="#">Midical</a>. All
+              Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/twentytwenty/jquery.event.move.js"></script>
+    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
